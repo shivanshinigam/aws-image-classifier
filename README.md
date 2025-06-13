@@ -43,7 +43,7 @@ Built from scratch — a fully working, real-time image classification platform 
 <img width="1680" alt="Image" src="https://github.com/user-attachments/assets/12fa6e51-e628-477a-a7c2-778f09c4611c" />
 <img width="1680" alt="predictions" src="https://github.com/user-attachments/assets/02423ef9-4cd1-44d0-8d94-1cf61b63cce0" />
 <h3>✉️ Sample Email Notification</h3>
-<img width="600" alt="Email Notification" src="https://raw.githubusercontent.com/shivanshinigam/aws-image-classifier/main/assets/email-notif-v2.jpeg" />
+![IMG_B785CC642085-1](https://github.com/user-attachments/assets/914f0810-d9df-4359-8ac2-f4ef88a66b82)
 
 
 
