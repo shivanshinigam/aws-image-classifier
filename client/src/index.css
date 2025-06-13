@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-white to-gray-50 text-gray-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-gray-600 hover:text-black px-4 py-2 transition-colors;
+  }
+
+  .nav-link-active {
+    @apply text-blue-600 font-semibold border-b-2 border-blue-600;
+  }
+
+  .upload-box {
+    @apply border-2 border-dashed border-gray-300 rounded-xl p-8 text-center bg-white transition-all duration-200;
+  }
+
+  .upload-box.drag-active {
+    @apply border-blue-400 bg-blue-50;
+  }
+
+  .upload-box.file-selected {
+    @apply border-green-400 bg-green-50;
+  }
+
+  .upload-icon {
+    @apply w-10 h-10 text-gray-400 mx-auto mb-4;
+  }
+
+  .file-name {
+    @apply text-lg font-medium text-green-700;
+  }
+
+  .file-size {
+    @apply text-sm text-gray-500;
+  }
+
+  .footer {
+    @apply text-center text-sm text-gray-500 mt-12;
+  }
+
+  .section-heading {
+    @apply text-2xl font-bold text-center mb-4;
+  }
+
+  .section-subheading {
+    @apply text-gray-600 text-center mb-8 max-w-xl mx-auto;
+  }
+}
